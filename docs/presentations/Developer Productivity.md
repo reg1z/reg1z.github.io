@@ -1,4 +1,4 @@
-## Developer Productivity
+# Developer Productivity
 
 *(What's a better term for the title here? Computer productivity? Sounds too generic)*
 - "Productivity" might not be the best / healthiest way to present it
