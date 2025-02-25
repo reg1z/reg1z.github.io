@@ -20,7 +20,7 @@ plugins:
   - social:
       enabled: !ENV [CI, false]
       cards_layout_options:
-        background_color: transparent
+        background_color: null
         background_image: assets/images/social/whitehat.webp
         font_family: Inter
 
