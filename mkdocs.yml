@@ -4,7 +4,7 @@ site_url: https://reg1z.github.io
 
 plugins:
   - blog
-  - social
+  #- social
   - search:
       enabled: true
 
