@@ -17,8 +17,9 @@ plugins:
   - social:
       enabled: !ENV [CI, false]
       cards_layout_options:
-        background_color: black
-        background_image: assets/whitehat.webp
+        background_color: transparent
+        background_image: assets/images/social/whitehat.webp
+        font_family: Inter
 
 extra_css:
   - stylesheets/extra.css
