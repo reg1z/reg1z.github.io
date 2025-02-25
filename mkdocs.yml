@@ -16,6 +16,9 @@ plugins:
   - callouts
   - social:
       enabled: !ENV [CI, false]
+      cards_layout_options:
+        background_color: black
+        background_image: assets/whitehat.webp
 
 extra_css:
   - stylesheets/extra.css
