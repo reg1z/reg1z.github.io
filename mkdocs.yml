@@ -14,7 +14,8 @@ plugins:
   - search:
       enabled: true
   - callouts
-  #- social
+  - social:
+      enabled: !ENV [CI, false]
 
 extra_css:
   - stylesheets/extra.css
