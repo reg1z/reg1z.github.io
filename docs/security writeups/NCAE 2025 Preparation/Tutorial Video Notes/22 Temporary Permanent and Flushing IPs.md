@@ -1,6 +1,6 @@
 # 22 Temporary Permanent and Flushing IPs
 
-https://www.youtube.com/watch?v=von08e7PlWk&list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M&index=22
+<iframe src="https://www.youtube.com/embed/von08e7PlWk?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 - **Adding Temporary IP Addresses**
     - `ip addr add <IP>/<subnet> dev <interface>` assigns a temporary IP.

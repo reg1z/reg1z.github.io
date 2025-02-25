@@ -1,6 +1,6 @@
 # 05 Moving and Copying
 
-![](https://www.youtube.com/watch?v=gSVg40u0fZE&list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M&index=5)
+<iframe src="https://www.youtube.com/embed/gSVg40u0fZE?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 - **Moving Files and Directories with `mv`**  
 	- `mv` (Move) command performs a **cut and paste** in one step.  

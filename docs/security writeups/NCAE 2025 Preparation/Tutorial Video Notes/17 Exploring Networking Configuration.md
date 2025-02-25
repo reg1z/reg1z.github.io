@@ -1,6 +1,6 @@
 # 17 Exploring Networking Configuration
 
-https://www.youtube.com/watch?v=CfLYrLpsUsQ&list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M&index=17
+<iframe src="https://www.youtube.com/embed/CfLYrLpsUsQ?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 - **Understanding Network Configuration**  
 	- Networking is a **fundamental service** for system communication.  

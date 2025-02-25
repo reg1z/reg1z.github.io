@@ -1,6 +1,7 @@
 # 20 Static Configuration in Ubuntu with Netplan
 
 <iframe src="https://www.youtube.com/embed/3vbFNmnJCl0?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
+
 - **Network Configuration in Ubuntu Using Netplan**
     - Ubuntu **no longer uses** `/etc/network/interfaces` for network configuration.
     - Instead, it relies on **Netplan**, with files stored in `/etc/netplan/`.

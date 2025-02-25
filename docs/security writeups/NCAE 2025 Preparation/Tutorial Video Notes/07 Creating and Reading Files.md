@@ -1,5 +1,6 @@
 # 07 Creating and Reading Files
-![](https://www.youtube.com/watch?v=2DcDQe8idtU&list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M&index=7)
+
+<iframe src="https://www.youtube.com/embed/2DcDQe8idtU?list=PLqux0fXsj7x3WYm6ZWuJnGC1rXQZ1018M" height="113" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;"></iframe>
 
 - **Creating Files with `touch`**  
 	- `touch <filename>` creates an empty file.  
