@@ -18,7 +18,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Update Submodules
         run: |
-          git submodule update --init --recursive --depth 1
+          git submodule update --init --remote
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
