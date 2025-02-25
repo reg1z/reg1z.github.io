@@ -2,6 +2,9 @@ site_name: My Docs
 
 site_url: https://reg1z.github.io
 
+site_description: Parser of Logs
+
+site_author: reg1z
 
 markdown_extensions:
   - nl2br
