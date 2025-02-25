@@ -1,6 +1,6 @@
 [submodule "docs"]
 	path = docs
-	url = git@github.com:reg1z/docs.git
+	url = https://github.com/reg1z/docs.git
 
 [submodule "mkdocs-material"]
   path = mkdocs-material
