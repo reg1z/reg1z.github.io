@@ -4,7 +4,8 @@ site_url: https://reg1z.github.io
 
 plugins:
   - blog
-  - search
+  - search:
+      enabled: true
 
 markdown_extensions:
   - admonition
