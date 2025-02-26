@@ -26,7 +26,7 @@ plugins:
       plugins:
         - social:
             cards_layout_options:
-              background_image: assets/images/social/whitehat.jpg
+              background_image: assets/images/social/whitehat.png
               background_color: null
               font_family: Inter
   - group:
