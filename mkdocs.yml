@@ -18,15 +18,15 @@ markdown_extensions:
 
 plugins:
   - blog
+  - callouts
   - search:
       enabled: true
-  - callouts
   - group:
       enabled: !ENV CI
       plugins:
         - social:
             cards_layout_options:
-              background_color: black
+              #background_color: transparent
               background_image: assets/images/social/whitehat.webp
               font_family: Inter
   - group:
