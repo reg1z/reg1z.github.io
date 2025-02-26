@@ -25,10 +25,11 @@ plugins:
       enabled: !ENV CI
       plugins:
         - social:
+            cards_layout: default/accent
             cards_layout_options:
+              background_color: "#00000000"
               background_image: assets/images/social/whitehat.png
-              background_color: null
-              font_family: Inter
+            font_family: Inter
   - group:
       enabled: !ENV INSIDERS
       plugins:
