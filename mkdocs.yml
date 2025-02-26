@@ -26,8 +26,8 @@ plugins:
       plugins:
         - social:
             cards_layout_options:
-              #background_color: transparent
-              background_image: assets/images/social/whitehat.webp
+              background_image: assets/images/social/whitehat.jpg
+              background_color: transparent
               font_family: Inter
   - group:
       enabled: !ENV INSIDERS
