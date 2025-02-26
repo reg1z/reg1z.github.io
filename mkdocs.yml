@@ -1,9 +1,9 @@
+repo_url: https://github.com/reg1z/reg1z.github.io
+repo_name: reg1z/reg1z.github.io
+
 site_name: My Docs
-
 site_url: https://reg1z.github.io
-
 site_description: Parser of Logs
-
 site_author: reg1z
 
 markdown_extensions:
@@ -21,12 +21,19 @@ plugins:
   - search:
       enabled: true
   - callouts
-  - social:
-      enabled: !ENV [CI, false]
-      cards_layout_options:
-        background_color: null
-        background_image: assets/images/social/whitehat.webp
-        font_family: Inter
+  - group:
+      enabled: !ENV CI
+      plugins:
+        - social:
+            cards_layout_options:
+              background_color: black
+              background_image: assets/images/social/whitehat.webp
+              font_family: Inter
+  - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - privacy
 
 extra_css:
   - stylesheets/extra.css
