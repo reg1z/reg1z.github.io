@@ -21,15 +21,16 @@ plugins:
   - callouts
   - search:
       enabled: true
-  - group:
-      enabled: !ENV CI
-      plugins:
-        - social:
-            cards_layout: default/accent
-            cards_layout_options:
-              background_color: "#00000000"
-              background_image: assets/images/social/whitehat.png
-            font_family: Inter
+  - social:
+      cards_layout: default/accent
+      cards_layout_options:
+        logo: layouts/logo2.png
+        background_color: "#00000000"
+        background_image: layouts/whitehat0.png
+        font_family: Inter
+        description: " "
+        # - group:
+        #enabled: !ENV CI
   - group:
       enabled: !ENV INSIDERS
       plugins:
