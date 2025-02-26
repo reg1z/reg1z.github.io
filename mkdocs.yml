@@ -16,30 +16,6 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.keys
 
-plugins:
-  - blog
-  - callouts
-  - search:
-      enabled: true
-  - social:
-      cards_layout: default/accent
-      cards_layout_options:
-        logo: layouts/logo2.png
-        background_color: "#00000000"
-        background_image: layouts/whitehat0.png
-        font_family: Inter
-        description: " "
-        # - group:
-        #enabled: !ENV CI
-  - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - privacy
-
-extra_css:
-  - stylesheets/extra.css
-
 theme:
   font:
     text: Inter
@@ -63,4 +39,27 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - blog
+  - callouts
+  - search:
+      enabled: true
+  - social:
+      cards_layout: default
+      cards_layout_options:
+        logo: layouts/logo2.png
+        background_color: "#00000000"
+        background_image: layouts/whitehat0.png
+        font_family: Inter
+        description: " "
+  - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - privacy
+
 
