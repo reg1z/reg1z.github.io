@@ -1,9 +1,9 @@
 repo_url: https://github.com/reg1z/reg1z.github.io
 repo_name: reg1z/reg1z.github.io
 
-site_name: Parser of Logs
+site_name: reg1z.github.io
 site_url: https://reg1z.github.io
-site_description: Parser of Logs
+site_description: Parsing Logs since 2005
 site_author: reg1z
 
 markdown_extensions:
@@ -51,15 +51,12 @@ plugins:
   - social:
       cards_layout: default
       cards_layout_options:
-        logo: layouts/logo2.png
         background_color: "#00000000"
         background_image: layouts/whitehat0.png
+        logo: layouts/logo2.png
         font_family: Inter
         description: " "
-  - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - privacy
+  - optimize
+  - privacy
 
 
