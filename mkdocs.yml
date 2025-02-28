@@ -55,7 +55,7 @@ plugins:
         background_image: layouts/whitehat0.png
         logo: layouts/logo2.png
         font_family: Inter
-        description: " "
+  - tags
   - optimize
   - privacy
 
