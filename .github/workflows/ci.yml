@@ -34,5 +34,5 @@ jobs:
       - run: sudo apt-get install pngquant
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install "mkdocs-material[imaging]"
-      - run: pip install mkdocs-callouts
+      - run: pip install mkdocs-callouts mkdocs-awesome-nav
       - run: mkdocs gh-deploy --force
