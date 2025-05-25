@@ -1,7 +1,7 @@
 repo_url: https://github.com/reg1z/reg1z.github.io
 repo_name: reg1z/reg1z.github.io
 
-site_name: reg1z.github.io
+site_name: reg1z
 site_url: https://reg1z.github.io
 site_description: Parsing Logs since 2005
 site_author: reg1z
@@ -24,9 +24,9 @@ theme:
     - navigation.instant.preview
     - navigation.tabs
     - navigation.tabs.sticky
-    #- navigation.sections
+    - navigation.sections
     - navigation.path
-    - navigation.prune
+   # - navigation.prune
     - navigation.top
     - navigation.indexes
     - search.suggest
@@ -64,11 +64,16 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  generator: false
+
 plugins:
-  - blog
-  - callouts
+  - blog:
+      blog_dir: .
+      post_dir: posts
   - search:
       enabled: true
+  - callouts
   - social:
       cards_layout: default
       cards_layout_options:
@@ -77,9 +82,10 @@ plugins:
         logo: layouts/logo2.png
         font_family: Inter
   - tags
-  - optimize
-  - privacy
+  - optimize:
+      cache: false
+  #- privacy
   - awesome-nav
 
-# nav:
-#   - Home: index.md
+#nav:
+#  - Home: blog/index.md
