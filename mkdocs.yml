@@ -1,7 +1,7 @@
 repo_url: https://github.com/reg1z/reg1z.github.io
 repo_name: reg1z/reg1z.github.io
 
-site_name: reg1z
+site_name: reg1z's blog & notes
 site_url: https://reg1z.github.io
 site_description: Parsing Logs since 2005
 site_author: reg1z
@@ -14,7 +14,12 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 theme:
   features:
