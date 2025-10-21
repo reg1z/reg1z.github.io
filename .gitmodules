@@ -1,7 +1,3 @@
-[submodule "docs"]
-  path = docs
-  url = https://github.com/reg1z/docs.git
-
-[submodule "mkdocs-material"]
-  path = mkdocs-material
-  url = https://github.com/squidfunk/mkdocs-material.git
+[submodule "assets/lib"]
+	path = assets/lib
+	url = https://github.com/cotes2020/chirpy-static-assets.git
